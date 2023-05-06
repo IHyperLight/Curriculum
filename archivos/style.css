@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+#profile {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#presentation {
+	margin-bottom: -1000px !important;
+    margin-top: 10px
+}
+
+#right {
+	background: linear-gradient(-50deg, #606060, #404040, #202020, #000000);
+	background-size: 600% 600%;
+	animation: gradient 15s ease infinite;
+    height: 100%;
+
+}
+
+#left {
+    background: linear-gradient(-50deg, #000000, #202020, #404040, #606060);
+	background-size: 600% 600%;
+	animation: gradient 15s ease infinite;
+	height: 100%;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#right-text {
+	margin-top: 60px !important;
+}
+
+#left-text {
+    font-size: 0.8em;
+	line-height: 1.5;
+	color:#cccccc;
+	text-align: justify;
+}
+
+#contact-text {
+    font-size: 0.8em;
+	color:#cccccc;
+	margin-left: 45px;
+	margin-top: -23px;
+	width: 100% !important;
+}
+
+#left-list li {
+	list-style-type: circle;
+}
+
+#left-progress {
+    position: absolute;
+	font-size: 1em;
+}
+
+#right-hr {
+	background-color: rgb(130, 130, 130);
+	border: none;
+	height: 1px;
+	width: 200px;
+}
+
+#a-static:hover {
+	cursor: default;
+}
+
+@media screen and (max-width: 400px) {
+	#list{
+		margin-top: 80%;
+	}
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+	#list{
+		margin-top: 60%;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+	#list{
+		margin-top: 50%;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px) {
+	#list{
+		margin-top: 40%;
+	}
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+	#list{
+		margin-top: -196%;
+	}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+	#list{
+		margin-top: -109.5%;
+	}
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+	#list{
+		margin-top: 13.5%;
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+	#list{
+		margin-top: -14.5%;
+	}
+}
+
+@media screen and (min-width: 1300px) and (max-width: 2500px) {
+	#list{
+		margin-top: -29.5%;
+	}
+}
